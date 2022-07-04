@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--мета тэг, для адаптивной верстки-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css bootstrap-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--подключаем иконки-->
+    <link rel="stylesheet" href="css/fontello.css">
+    <!--свои стили после bootstrap, они буду иметь приоритет-->
+    <link rel="stylesheet" href="css/style.css">
+    <title></title>
+</head>
+<body>
+  <header>
+     <!--создаем контейнер (.container, .row, .col*3 #что бы получить столбцы)-->
+     <div class="container">
+      <div class="row">
+          <div class="col-12">
+            <h1 class="text-center">SPACESHIP</h1>
+            <h2 class="text-center">Apollo 3000</h2>
+             <div class="itd_play" data-bs-toggle="modal" data-bs-target="#exampleModal">
+               <div class="itd_traingle"></div>
+             </div>
+            <!--btn-стили в виде кнопки, btn-lg-размер данной кнопки-->
+             <a href="#footer" class="btn btn-itd btn-lg text-uppercase">Captain</a>
+          </div>
+        </div>
+      </div>        
+  </header>
+
+<!--2 графа-->
+  <section class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-center text-uppercase mb-5">3 points, always under control</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-md-6 col-sm-12">
+          <div class="itd_circle1"></div>
+          <h4 class="text-center">QUALITY</h4>
+          <div class="line"></div>
+        </div>
+        <div class="col-xl-4 col-md-6 col-sm-12">
+          <div class="itd_circle2"></div>
+          <h4 class="text-center">TIME</h4>
+          <div class="line"></div>
+        </div>
+        <div class="col-xl-4 col-md-6 col-sm-12">
+          <div class="itd_circle3"></div>
+          <h4 class="text-center">NERVES</h4>
+          <div class="line"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!--3 графа-->
+  <section class="forwhom">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center text-uppercase mb-5">BASIC EQUIPMENT</h1>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-md-6 col-sm-12">
+          <h5 class="text-center">Python</h5>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <h5 class="text-center">Django</h5>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <h5 class="text-center">HTML, Bootstrap</h5>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <h5 class="text-center">Parsing</h5>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <h5 class="text-center">SQLite</h5>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <h5 class="text-center">Git</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!--4 графа-->
+  <section class="chedule">
+    <div class="container">
+      
+      <!--первый аккордион-->
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <h4 class="text-center fw-bold mb-3 mt-3">Upgrade of basic configuration</h4>
+
+          <div class="accordion accordion-flush" id="accordion1">
+
+            <div class="accordion-item1">
+              <h2 class="accordion-header" id="heading1">
+                <button class="accordion-button " type="button" data-bs-toggle="collapse" 
+                data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                  <h6>Django</h6>
+                </button>
+              </h2>
+              <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" 
+              data-bs-parent="#accordion1">
+                <div class="accordion-body"><h6>In the process</h6></div>
+              </div>
+            </div>
+
+            <div class="accordion-item2">
+              <h2 class="accordion-header" id="heading2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                  <h6>SQLite</h6>
+                </button>
+              </h2>
+              <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" 
+              data-bs-parent="#accordion1">
+                <div class="accordion-body"><h6>In the process</h6></div>
+              </div>
+            </div>
+            
+            <div class="accordion-item3">
+              <h2 class="accordion-header" id="heading3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                  <h6>Parsing</h6>
+                </button>
+              </h2>
+              <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" 
+              data-bs-parent="#accordion1">
+                <div class="accordion-body"><h6>In the process</h6></div>
+              </div>
+            </div>
+
+            <div class="accordion-item4">
+              <h2 class="accordion-header" id="heading4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                  <h6>Аiogram</h6>
+                </button>
+              </h2>
+              <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" 
+              data-bs-parent="#accordion1">
+                <div class="accordion-body"><h6>In the process</h6></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+         <!--второй аккордион-->
+        <div class="col-md-6 col-sm-12">
+          <h4 class="text-center fw-bold mb-3 mt-3">Discovery of new worlds</h4>
+
+          <div class="accordion accordion-flush" id="accordion2">
+
+            <div class="accordion-item5">
+              <h2 class="accordion-header" id="heading6">
+                <button class="accordion-button " type="button" data-bs-toggle="collapse" 
+                data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                  <h6>Java</h6>
+                </button>
+              </h2>
+              <div id="collapse6" class="accordion-collapse collapse show" aria-labelledby="heading6" 
+              data-bs-parent="#accordion2">
+                <div class="accordion-body"><h6>CLOSED</h6></div>
+              </div>
+            </div>
+
+            <div class="accordion-item6">
+              <h2 class="accordion-header" id="heading7">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                  <h6>PHP</h6>
+                </button>
+              </h2>
+              <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" 
+              data-bs-parent="#accordion2">
+                <div class="accordion-body"><h6>CLOSED</h6></div>
+              </div>
+            </div>
+
+            <div class="accordion-item7">
+              <h2 class="accordion-header" id="heading8">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                  <h6>Kotlin</h6>
+                </button>
+              </h2>
+              <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" 
+              data-bs-parent="#accordion2">
+                <div class="accordion-body"><h6>CLOSED</h6></div>
+              </div>
+            </div>
+
+            <div class="accordion-item8">
+              <h2 class="accordion-header" id="heading9">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                  <h6>JavaSkript</h6>
+                </button>
+              </h2>
+              <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9" 
+              data-bs-parent="#accordion2">
+                <div class="accordion-body"><h6>CLOSED</h6></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--5 раздел-->
+  <section class="author">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center text-uppercase color2 mb-5">Chernecky Vadim</h1>
+        </div>    
+      </div>
+      <div class="row">
+        <div class="col-xl-9 col-lg-12">
+          <p>Telegram: vadim_chernecky</p>
+          <p>GitHab: VadimChernetsky</p>
+          <p>Inst: vadim_cherneckiy</p>
+        </div>
+        <div class="col-xl-3 col-lg-12 text-center">
+          <img src="img/author.png" alt="Вадим" class="img-fluid itd_img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+     <!--подвал-->
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <a href="https://www.instagram.com/accounts/login/?next=/vadim_cherneckiy/" target="_blank" class="btn btn-outline-light"><i class="icon-instagram"></i></a>
+            <a href="https://vk.com/m.ares" target="_blank" class="btn btn-outline-light"><i class="icon-vkontakte"></i></a>
+            <a href="https://github.com/VadimChernetsky" target="_blank" class="btn btn-outline-light"><i class="icon-github-circled"></i></a>
+            <a href="https://t.me/vadim_chernecky" target="_blank" class="btn btn-outline-light"><i class="icon-paper-plane"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Модальное окно -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg3">
+      <div class="modal-header">
+        <h5 class="modal-title color2" id="exampleModalLabel">ON MY WAY</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+      </div>
+      <div class="modal-body">
+        <!--Видео с ютуба-->
+        <div class='embed-container'><iframe src='https://www.youtube.com/embed//MamH-Jy3j8s' frameborder='0' allowfullscreen></iframe></div>
+      </div>
+    
+    </div>
+  </div>
+</div>
+
+    <!--скрипты bootstrap-->
+    <script src="js/bootstrap.bundle.min.js" ></script>
+</body>
+</html>

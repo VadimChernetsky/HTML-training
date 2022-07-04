@@ -1,0 +1,398 @@
+:root {
+    --color1: #a50808;
+    --color2: #fff;
+    --color3: #000;
+}
+
+section {
+    padding: 100px 0;
+}
+
+h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--color2);
+    font-style: oblique;
+    font-size: 55px;
+    text-shadow: 5px 5px 5px var(--color1);
+}
+
+h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--color2);
+    font-style: oblique;
+    font-size: 45px;
+    text-shadow: 5px 5px 5px var(--color1);
+}
+h5 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--color2);
+    font-style: oblique;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px var(--color1);
+
+}
+h4 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--color2);
+    font-style: oblique;
+    font-size: 25px;
+    text-shadow: 5px 5px 5px var(--color1);
+}
+h6 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--color2);
+    font-style: oblique;
+    font-size: 13px;
+    text-shadow: 5px 5px 5px var(--color1);
+}
+h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--color2);
+    font-style: oblique;
+    font-size: 33px;
+    text-shadow: 5px 5px 5px var(--color1);
+}
+p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--color2);
+    font-style: oblique;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px var(--color1); 
+}
+
+header {
+    padding: 180px 0;
+    background: url(../img/1.jpg,);
+    background: url(../img/1.jpg);
+    background: url(../img/1.jpg);
+    background: url(../img/1.jpg);
+    filter: url(../img/1.jpg);
+    background-size: 1400px;
+    background-position: center;
+
+}
+
+footer {
+    background: url(../img/10.jpg,);
+    background: url(../img/10.jpg);
+    background: url(../img/10.jpg);
+    background: url(../img/10.jpg);
+    filter: url(../img/10.jpg);
+    background-size: 1400px;
+    background-position: center;
+}
+
+.itd_play {
+    background: url(../img/15.jpg);
+    background-size: 100px;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 30px auto 30px;
+    transition: all 0.2s ease;
+}
+
+.itd_play:hover {
+    background: url(../img/15.jpg);
+    background-size: 300px;
+    background-position: center;
+}
+
+.itd_traingle {
+    margin-right: -3px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent var(--bs-white);
+
+}
+
+.btn-itd {
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 8px 30px;
+    color: var(--bs-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 30px auto 30px;
+    transition: all 0.2s ease;
+    background: url(../img/15.jpg);
+    background-size: 150px;
+    background-position: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(246, 246, 248);
+    font-style: oblique;
+    font-size: 20px;
+    text-shadow: 5px 5px 5px #a50808;
+}
+
+.btn-itd:hover {
+    color: var(--bs-white);
+    background: url(../img/15.jpg);
+    background-size: 500px;
+    background-position: center;
+
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*2 графа*/
+.about {
+    background: url(../img/2.jpg);
+    background: url(../img/2.jpg);
+    background: url(../img/2.jpg);
+    background: url(../img/2.jpg);
+    filter: url(../img/2.jpg);
+    background-size: 1400px;
+    background-position: center;
+}
+
+.about i {
+    font-size: 25px;
+    color: var(--color1)
+}
+
+.itd_circle1 {
+    margin: 0 auto 15px;
+    background: url(../img/21.jpg);
+    filter: url(../img/21.jpg);
+    background-size: 160px;
+    background-position: center;
+    
+    width: 75px;
+    height: 75px;
+    border: 1px solid var(--color1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.itd_circle2 {
+    margin: 0 auto 15px;
+    background: url(../img/22.jpg);
+    filter: url(../img/22.jpg);
+    background-size: 115px;
+    background-position: center;
+    
+    width: 75px;
+    height: 75px;
+    border: 1px solid var(--color1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.itd_circle3 {
+    margin: 0 auto 15px;
+    background: url(../img/23.jpg);
+    filter: url(../img/V.jpg);
+    background-size: 140px;
+    background-position: center;
+    
+    width: 75px;
+    height: 75px;
+    border: 1px solid var(--color1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line {
+    width: 80px;
+    height: 2px;
+    background-color: var(--color1);
+    margin: 15px auto 30px;
+}
+
+/* Цвет */
+.color1 {
+    color: var(--color1)
+}
+.color2 {
+    color: var(--color2)
+}
+.color3 {
+    color: black;
+}
+.bg1 {
+    background-color: var(--color1)
+}
+.bg2 {
+    background-color: var(--color2)
+}
+.bg3 {
+    background-color: #000 
+}
+
+/* 3 графа */
+
+.forwhom {
+    background: url(../img/3.jpg);
+    background: url(../img/3.jpg);
+    background: url(../img/3.jpg);
+    background: url(../img/3.jpg);
+    filter: url(../img/3.jpg);
+    background-size: 1400px;
+    background-position: center;
+}
+
+.forwhom h5 {
+    padding: 30px;
+    border: 1px solid var(--color1);
+}
+
+/* 4 графа */
+
+.chedule {
+    background: url(../img/4.jpg);
+    background: url(../img/4.jpg);
+    background: url(../img/4.jpg);
+    background: url(../img/4.jpg);
+    filter: url(../img/4.jpg);
+    background-size: 1400px;
+    background-position: center;
+}
+
+.accordion-button {
+    background: url(../img/12.jpg);
+    background-size: 600px;
+    background-position: center;
+}
+
+.accordion-item1 {
+    background: url(../img/12.jpg);
+    background-size: 600px;
+    background-position: center;
+}
+
+.accordion-button:not(.collapsed) {
+    background: url(../img/12.JPG);
+    background-size: 600px;
+    background-position: center;
+}
+
+.accordion-item1:not(.collapsed) {
+    background: url(../img/41.JPG);
+    background-size: 765px;
+    background-position: center;
+}
+
+.accordion-item2 {
+    background: url(../img/12.jpg);
+    background-size: 500px;
+    background-position: center;
+}
+.accordion-item2:not(.collapsed) {
+    background: url(../img/42.JPG);
+    background-size: 765px;
+    background-position: center;
+}
+
+.accordion-item3 {
+    background: url(../img/12.jpg);
+    background-size: 500px;
+    background-position: center;
+}
+.accordion-item3:not(.collapsed) {
+    background: url(../img/43.JPG);
+    background-size: 765px;
+    background-position: center;
+}
+.accordion-item4 {
+    background: url(../img/12.jpg);
+    background-size: 500px;
+    background-position: center;
+}
+.accordion-item4:not(.collapsed) {
+    background: url(../img/44.JPG);
+    background-size: 765px;
+    background-position: center;
+}
+.accordion-item5 {
+    background: url(../img/12.jpg);
+    background-size: 500px;
+    background-position: center;
+}
+.accordion-item5:not(.collapsed) {
+    background: url(../img/45.JPG);
+    background-size: 765px;
+    background-position: center;
+}
+.accordion-item6 {
+    background: url(../img/12.jpg);
+    background-size: 500px;
+    background-position: center;
+}
+.accordion-item6:not(.collapsed) {
+    background: url(../img/46.JPG);
+    background-size: 765px;
+    background-position: center;
+}
+.accordion-item7 {
+    background: url(../img/12.jpg);
+    background-size: 500px;
+    background-position: center;
+}
+.accordion-item7:not(.collapsed) {
+    background: url(../img/47.JPG);
+    background-size: 765px;
+    background-position: center;
+}
+.accordion-item8 {
+    background: url(../img/12.jpg);
+    background-size: 500px;
+    background-position: center;
+}
+.accordion-item8:not(.collapsed) {
+    background: url(../img/48.JPG);
+    background-size: 765px;
+    background-position: center;
+}
+
+
+/* 5 графа */
+.author {
+    background: url(../img/6.jpg);
+    background: url(../img/6.jpg);
+    background: url(../img/6.jpg);
+    background: url(../img/6.jpg);
+    filter: url(../img/6.jpg);
+    background-size: 1400px;
+    background-position: center;
+    padding-bottom: 0%;
+}
+
+.itd_img {
+    max-width: 260px;
+}
+
+/* подвал */
+footer {
+    padding: 30px 0;
+
+}
